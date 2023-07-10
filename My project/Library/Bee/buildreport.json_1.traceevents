@@ -1,0 +1,499 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1689002141053319, "dur": 4901105, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002141053744, "dur": 4946, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002141058693, "dur": 146973, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002141205668, "dur": 1577744, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002142783415, "dur": 3169262, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002145952679, "dur": 1744, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002145955326, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1689002142336160, "dur": 417009, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689002142337750, "dur": 75705, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689002142702833, "dur": 10735, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689002142713573, "dur": 39578, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689002142715232, "dur": 36613, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689002142761801, "dur": 2472, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689002142760319, "dur": 4011, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002145955553, "dur": 478, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689002142883497, "dur":2387, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002142885891, "dur":96, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689002142886015, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689002142886049, "dur":319, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689002142886432, "dur":1408, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002142887840, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145912989, "dur":152, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913141, "dur":62, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913203, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913210, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913231, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913235, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913246, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913249, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913261, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913286, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145913327, "dur":3116, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689002142887392, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002142887855, "dur":9550, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002142897421, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689002142897433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002142917676, "dur":598, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689002142918283, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689002142918386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002142951285, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689002142956442, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689002142956669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002142957047, "dur":33718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689002142990830, "dur":77357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689002143068194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143068207, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689002143069796, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689002143070032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143070048, "dur":39939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689002143110082, "dur":436888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143546978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143547135, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143553466, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1689002143553654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143603965, "dur":64652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1689002143668730, "dur":102855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143771593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143772015, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143773516, "dur":22550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143796074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143796213, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143798106, "dur":28993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143827140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143827156, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143829122, "dur":57181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143886311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143886326, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143888062, "dur":22997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143911068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143911081, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143912877, "dur":44513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143957397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002143957420, "dur":23909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002143981409, "dur":25290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144006707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144006721, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144011227, "dur":38397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144049632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144049646, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144051719, "dur":40059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144091786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144091801, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144093666, "dur":26963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144120637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144120650, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144123725, "dur":26581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144150314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144150328, "dur":49019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144199564, "dur":30933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144230505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144230520, "dur":10054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144240663, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144241261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144241274, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144243156, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144243473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144243487, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144245624, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144246127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144246139, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144247925, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144248275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144248290, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144250124, "dur":24714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144274846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144274860, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144276604, "dur":76510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144353122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144353136, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144356496, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144356835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144356849, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144358799, "dur":42205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144401009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144401024, "dur":4621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144405722, "dur":37323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144443053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144443069, "dur":16285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144459430, "dur":53057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144512495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144512510, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144515568, "dur":36896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144552472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144552486, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144554431, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144554683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144554729, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144556444, "dur":40423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144596875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144596889, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144599151, "dur":26558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144625717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144625731, "dur":10627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144636437, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144636778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144636824, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144638904, "dur":82361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144721273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144721288, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144723083, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144723346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144723358, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144725192, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144725978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144725992, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144727969, "dur":1176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144729152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144729165, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144731339, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144731742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144731755, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144734434, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144735026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144735040, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144738714, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144739538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144739551, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144741910, "dur":1447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144743364, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144743379, "dur":6081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144749534, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144749776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144749790, "dur":49023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144798888, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144799158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144799171, "dur":42571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144841818, "dur":1783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144843609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144843625, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144845554, "dur":99649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144945211, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002144945227, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002144947262, "dur":164919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002145112190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002145112205, "dur":210581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002145322864, "dur":2165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002145325034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002145325044, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002145327511, "dur":8881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002145336396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002145336406, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689002145340674, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689002145340748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002145340759, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689002145342817, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689002145343036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002145343050, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689002145344556, "dur":25415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1689002145369977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689002145369991, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1689002145372091, "dur":540880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002142887448, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002142887862, "dur":9810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002142897673, "dur":75736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689002142973419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002142973447, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689002142975195, "dur":49182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689002143024385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002143024397, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689002143026300, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689002143026516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002143026531, "dur":24851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689002143051478, "dur":22354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689002143073839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002143073853, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689002143075334, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1689002143075534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002143075548, "dur":47099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1689002143122711, "dur":946500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1689002144069219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144069231, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1689002144071961, "dur":30132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144102102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144102117, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144106053, "dur":105013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144211075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144211090, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144212953, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144213248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144213268, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144214993, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144215469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144215481, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144217157, "dur":2532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144219697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144219711, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144222985, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144223609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144223624, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144225762, "dur":25414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144251184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144251198, "dur":18257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144269531, "dur":59436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144328974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144328989, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144330698, "dur":31712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144362418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144362434, "dur":8344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144370861, "dur":22171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144393039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144393054, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144395184, "dur":925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144396115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144396129, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144398184, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144398661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144398674, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144400616, "dur":51911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144452532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144452545, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144454378, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144454657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144454671, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144458282, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144459406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144459418, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144461820, "dur":23086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144484914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144484963, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144486528, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144486783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144486796, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144488426, "dur":25294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144513728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144513742, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144515757, "dur":48400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144564165, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144564179, "dur":6424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144570675, "dur":2207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144572889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144572903, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144575641, "dur":32691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144608340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144608354, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144611419, "dur":51799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144663224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144663237, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144664923, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144666166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144666180, "dur":2763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144669029, "dur":260351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144929388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002144929402, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002144932200, "dur":171708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145103917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145103932, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145106031, "dur":3923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145109961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145109974, "dur":211990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145322121, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145322438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145322452, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145324364, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145324864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145324877, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145326929, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145327333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145327345, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145329136, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145329794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145329807, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145333185, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145333443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145333458, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145335705, "dur":30741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145366454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689002145367867, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689002145369554, "dur":543418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002142887487, "dur":383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002142887870, "dur":9539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002142897421, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689002142897656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002142952495, "dur":28839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689002142981403, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689002142981539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002142982292, "dur":21278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689002143003632, "dur":53761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689002143057400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002143057412, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689002143059379, "dur":30358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689002143089744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002143089761, "dur":20957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689002143110800, "dur":2776023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689002145886831, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689002145886844, "dur":26013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689002145912948, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1689002145912954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002142887544, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002142887878, "dur":9530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002142897421, "dur":80119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689002142977546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002142977929, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689002142979383, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1689002142979576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002142979591, "dur":15590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1689002142995278, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689002142995483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002142995590, "dur":39037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689002143034695, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1689002143034838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143035359, "dur":19749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1689002143055206, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689002143055423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143055568, "dur":19908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689002143075606, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1689002143075764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143075777, "dur":33508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1689002143109385, "dur":377274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143486667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143487096, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143489025, "dur":308949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker.exe" }}
+,{ "pid":12345, "tid":4, "ts":1689002143797982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143797992, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker.exe" }}
+,{ "pid":12345, "tid":4, "ts":1689002143800237, "dur":60183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143860428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143860441, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143862149, "dur":65522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143927679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143927692, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143929397, "dur":25797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143955201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002143955214, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002143956874, "dur":173631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144130514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144130529, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144132217, "dur":116195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144248417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144248427, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144250199, "dur":79840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144330046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144330060, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144332531, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144332808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144332821, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144334667, "dur":23804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144358479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144358494, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144360074, "dur":29245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144389328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144389342, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144392273, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144393081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144393109, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144395763, "dur":25032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144420803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144420862, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144422989, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144423389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144423401, "dur":28994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144452468, "dur":39980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144492456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144492470, "dur":12788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144505361, "dur":155361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144660730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144660744, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144662831, "dur":23495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144686334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144686349, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144688067, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144688397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144688409, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144690131, "dur":72211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144762351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144762366, "dur":93726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144856272, "dur":102850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144959131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144959147, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144961507, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144961766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144961779, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144963326, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144963676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144963688, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144965610, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144965866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144965881, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144967727, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144967971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144967983, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144969662, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144969962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144969975, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144971651, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144972096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144972110, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144973742, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144974200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144974214, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144976931, "dur":5238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002144982177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002144982191, "dur":52254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145034526, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145034816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145034829, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145036433, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145037010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145037024, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145038845, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145039641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145039656, "dur":4974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145044711, "dur":1642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145046361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145046376, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145048725, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145049231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145049245, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145051018, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145051417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145051429, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145053302, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145053758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145053770, "dur":21210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145075063, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145075323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145075339, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145077816, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145078678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145078743, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145081464, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145081748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145081761, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145083329, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145084335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145084349, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145087433, "dur":21408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145108849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145108865, "dur":216678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145325617, "dur":4850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145330474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145330488, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689002145336093, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1689002145336166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145336243, "dur":4957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1689002145341273, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689002145341351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145341362, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689002145345424, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689002145345498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145345509, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689002145347528, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689002145347608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145347623, "dur":5203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689002145352913, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1689002145352997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145353008, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1689002145354633, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1689002145354872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689002145354884, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenov/OneDrive/ /qwe/Bunker_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1689002145356608, "dur":556378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689002145919806, "dur":3281, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1689002145956143, "dur": 1220, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689002145955308, "dur": 2109, "ph": "X", "name": "Write chrome-trace events", "args": {} },
